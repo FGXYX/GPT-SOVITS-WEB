@@ -21,6 +21,13 @@
 # 在 GPT-SoVITS 项目目录下
 python api_v2.py -p 9880
 ```
+或者新建一个.bat文件运行，内容如下：
+
+```bash
+runtime\python.exe api_v2.py
+pause
+```
+默认端口 9880 可自行修改。
 
 > 后端可运行在 Windows 或 Linux 上，本前端通过 HTTP 连接即可。
 
